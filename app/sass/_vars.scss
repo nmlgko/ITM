@@ -1,0 +1,42 @@
+$font-light: 'Roboto-Light', sans-serif;
+$font-thin: 'Roboto-Thin', sans-serif;
+$font-regular: 'Roboto-Regular', sans-serif;
+$font-medium: 'Roboto-Medium', sans-serif;
+$font-bold: 'Roboto-Bold', sans-serif;
+
+$main-color: #fff;
+$accent-color: #f0e353;
+$transition: all .3s linear;
+
+%add-el {
+	content: '';
+	position: absolute;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+// $icon-color: #bdc3c7;
+// $icon-footer: #d1d5d8;
+// $accent-color2: #a255c4;
+// $btn-hover: #4e4ca0;
+
+// %circle {
+// 	border: {
+// 		radius: 50%;
+// 		width: 1px;
+// 		style: solid;		
+// 	}
+// 	text-align: center;
+// }
+// %box-shadow {
+// 	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+// }
