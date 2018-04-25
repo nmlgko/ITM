@@ -314,36 +314,22 @@ body {
 .section-block-holder {
 	width: 100%;
 	.wrap	{	
-		// width: 100%;
-		// margin-left: -15px;
-		// margin-right: -15px;
-		// display: flex;
-		// flex-wrap: wrap;
 		@media screen and (max-width: 768px) {
 			width: 100%;
-			// margin-left: -15px;
-			// margin-right: -15px;
 			padding-left: 0;
 			padding-right: 0;
 		}
 	}
 }
 .section-block {
-	// display: flex;
 	display: inline-block;
 	width: 50%;
 	height: 374px;
 	vertical-align: top;
-	// flex-basis: 50%;
-	// justify-content: center;
-	// align-items: center;
 	@media screen and (max-width: 768px) {
-		// flex-basis: inherit;
 		display: block;
 		width: 100%;
 		height: auto;
-		// margin-right: -15px;
-		// margin-left: -15px;
 	}
 	&:first-child {
 		border-right: 1px solid #fff;
@@ -351,15 +337,10 @@ body {
 		@media screen and (max-width: 1200px) {
 			padding-right: 0;
 		}
-		@media screen and (max-width: 959px) {
-			// padding-right: 0;
-		}
 		@media screen and (max-width: 768px) {
 			height: auto;
 			padding-top: 50px;
 			padding-bottom: 50px;
-			// margin-right: -15px;
-			// margin-left: -15px;
 			border-right: 0 none;
 			border-bottom: 1px solid $main-color;
 		}
@@ -413,12 +394,8 @@ body {
 		align-content: center;
 		@media screen and (max-width: 1200px) {
 			flex-wrap: wrap;
-				// width: 100%;
-				// float: left;
-				// width: 138px;		
 		}
 		@media screen and (max-width: 768px) {
-			// display: block;
 			padding-top: 50px;
 			padding-bottom: 50px;
 		}
@@ -428,14 +405,8 @@ body {
 			margin-bottom: 15px;
 			line-height: 138px;
 			text-align: center;
-			@media screen and (max-width: 1200px) {
-				// float: left;
-				// width: 138px;		
-			}
 		}
 		.text-holder {
-			// text-align: center;
-			// padding-left: 0;
 			@media screen and (max-width: 1200px) {
 				padding-left: 15px;
 				padding-right: 15px;
@@ -446,7 +417,6 @@ body {
 			position: relative;
 			display: inline-block;
 			margin-bottom: 10px;
-			// padding-top: 15px;
 			padding-bottom: 15px;
 			&::before {
 				@extend %add-el;
